@@ -1,0 +1,2 @@
+# PassKeeper
+PassKeeper is a simple and secure web application designed to store passwords in your browser's local storage. This project provides a convenient way to manage and access your passwords without relying on external services. The application is built with a focus on simplicity and ease of use, making it an ideal choice for personal use.

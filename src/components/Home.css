@@ -1,0 +1,242 @@
+main {
+  width: 100%;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box1 {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 500px;
+  font-size: larger;
+  font-weight: 800;
+  font-style: italic;
+  background: #00143b;
+  border-radius: 15px;
+}
+
+.box2 {
+  margin: 15px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+  width: 500px;
+  background: #00143b;
+  border-radius: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+
+.input-field label {
+  cursor: pointer;
+}
+
+.input-field input {
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+  padding: 5px;
+  width: 400px;
+  height: 25px;
+}
+
+.input-pass {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 8px;
+  top: 4.5px;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 3px 9px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+
+.box3 {
+  margin: 15px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 800px;
+  background: #00143b;
+  border-radius: 15px;
+}
+
+.box3 h2{
+  margin: 15px 0px;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.pass-table{
+  margin-top: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pass-table thead{
+  background: #B7D1DA;
+  color: black;
+}
+
+.pass-table thead th{
+  padding:8px;
+  width: 33.3%;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+.pass-table tbody{
+  background: #2B83A0;
+  color: rgb(0, 0, 0);
+}
+
+.pass-table tbody td{
+  padding: 8px 12px;
+  text-align: center;
+  width: 33.3%;
+  border: 0.5px solid black;
+  overflow-x: auto;
+}
+
+.pass-table tbody td .td-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.copy{
+  cursor: pointer;
+  color: rgb(41, 41, 41);
+  
+}
+
+.copy:hover{
+  cursor: pointer;
+  color: rgb(0, 0, 75);
+}
+
+.pass-table2 {
+  display: none;
+  flex-direction: column;
+  height: 320px;
+  padding: 3px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.password-item {
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  padding: 11.2px;
+  border-radius: 8px;
+  background-color: #526190;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.password-detail {
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.password-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 0px;
+}
+
+.password-detail p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.no-passwords {
+  text-align: center;
+  color: #777;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .box1 {
+    width: 250px;
+    padding: 12px;
+  }
+
+  .box2 {
+    width: 250px;
+    padding: 12px;
+  }
+  
+  .box3 {
+    width: 250px;
+    padding: 12px;
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .input-field input {
+    width: 90%;
+  }
+
+  .input-pass input {
+    width: 96.6%;
+  }
+
+  .pass-table{
+    display: none;
+  }
+
+  .pass-table2{
+    display: flex;
+  }
+}

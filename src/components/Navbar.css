@@ -1,0 +1,21 @@
+nav{
+    width: 100%;
+    padding: 12px 0;
+    background: #000c26;
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-text{
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.symbol-color{
+    color: rgb(0, 192, 0);
+}
